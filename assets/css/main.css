@@ -1614,15 +1614,13 @@
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #bbc1c0;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color:#bbc1c0 !important;
 			text-decoration: none;
 		}
 
@@ -2517,15 +2515,15 @@
 		-ms-justify-content: space-between;
 
 		background-posit		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #000000;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");on: top left,							top left;
+		background-image: url(), url();on: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 5em 2.5em;
 		position: fixed;
 		text-align: center;
 		top: 0;
@@ -2559,11 +2557,12 @@
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
-			line-height: 1.75em;
+			line-height:0.75em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
+                         
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
@@ -2581,7 +2580,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 4px #5ccfb0;
+					border-top: solid 4px #ffffff;
 					display: block;
 					padding: 0;
 				}
@@ -2599,8 +2598,8 @@
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #ffffff;
+							color: #ffffff !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3096,7 +3095,8 @@
 		/* List */
 
 			ul.labeled-icons li {
-				padding-left: 2em;
+				padding-left: 
+em;
 			}
 
 				ul.labeled-icons li h3 {
