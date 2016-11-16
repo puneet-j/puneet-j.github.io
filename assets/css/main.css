@@ -2514,7 +2514,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 
-		background-posit		justify-content: space-between;
+		background-position fixed;
 		background-color: #000000;
 		background-attachment: scroll,								fixed;
 		background-image: url(), url();on: top left,							top left;
@@ -2557,7 +2557,7 @@
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
-			line-height:0.75em;
+			line-height:4.5em;
 			margin: 0;
 		}
 
